@@ -8,12 +8,12 @@ a {
     font-size: 18px;
 }
 
-h3 {
+.logo {
     color: #f9faf8;
     font-size: 24px;
 }
 
-h1 {
+.tophead {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
@@ -25,8 +25,8 @@ h1 {
     background-color: #1f2937;
     justify-content: space-between;
     padding: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .toplinks {
@@ -41,8 +41,8 @@ h1 {
     background-color: #1f2937;
     color: #e5e7eb;
     padding: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
     gap: 10px;
     justify-content: space-between;
 }
@@ -63,7 +63,7 @@ button {
     border: none;
 }
 
-p {
+.headtxt {
     font-size: 18px;
     max-width: 400px;
 }
@@ -73,4 +73,52 @@ p {
     flex-direction: column;
     gap: 8px;
     flex-wrap: wrap;
+}
+
+.topimg {
+width: 800px;
+height: 200px
+}
+
+.middlecontent {
+    background-color: white;
+}
+
+.midimg {
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 20px;
+padding-left: 300px;
+padding-right: 300px;
+}
+
+.mctop {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+.midhead {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.midpic {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.midtxt {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 18px;
+    gap: 25px;
+    color: #1f2937;
+    padding-left: 350px;
+    padding-right: 350px;
 }

@@ -189,3 +189,13 @@ padding-right: 300px;
 .callbottom {
     color: #e5e7eb;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}

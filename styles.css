@@ -206,3 +206,10 @@ padding-right: 300px;
     display: flex;
     flex-direction: column;
 }
+
+.taxpic, .percpic, .carrotpic, .troutpic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
